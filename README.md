@@ -18,3 +18,18 @@ Response-
 
 
 #API For Insert The Record Using PHP And MySql
+API-http://localhost/php-rest-api/insert.php
+
+Body-
+{ 
+	"age":"33",
+	"name":"A",
+	"city":"pune"
+}
+
+Response
+{
+    "message": "Record inserted.",
+    "status": true
+}-
+
